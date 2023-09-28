@@ -591,7 +591,7 @@
 			<item Command="Open..." Keycode="(C)O" />
 			<item Command="Close" Keycode="(C)W" />
 			<item Command="Close All" Keycode="(CS)W" />
-                        <item Command="Show File in Explorer..." Keycode="(CS)A" />
+			<item Command="Show File in Explorer..." Keycode="(CS)A" />
 			<item Command="Save" Keycode="(C)S" />
 			<item Command="Reload File" Keycode="(CS)O" />
 			<item Command="Search..." Keycode="(C)F" />
@@ -778,7 +778,7 @@
 			/>
 		<Command
 			Name="Open Npp"
-			RunText="&quot;C:\Program Files\Notepad++\notepad++.exe&quot;  -n%l %f"
+			RunText="&quot;C:\Program Files\PSPad editor\PSPad.exe&quot;  -n%l %f"
 			WorkingDir=""
 			NormalWindow="1"
 			CaptureOutput="0"
@@ -1133,7 +1133,7 @@
 		</Type>
 		<Type
 			Name="C/C++ Source File"
-			FileFilter="*.c;*.h;*.cpp;*.hpp;*.cxx;*.hxx;*.hh"
+			FileFilter="*.c;*.h;*.cpp;*.hpp;*.cxx;*.hxx;*.hh;*.dat;*.uni;*.hfr;*.vfr;*.vfi;*.asl;*.inf"
 			Language="C/C++ Language"
 			ParsePattern=""
 			WordWrap="0"
@@ -2470,8 +2470,8 @@
 		NoWarnings="1"
 		RunInBackground="1"
 		RunEveryMinutes="60"
-		AddNewFiles="0"
-		RemoveOldFiles="0"
+		AddNewFiles="1"
+		RemoveOldFiles="1"
 		SyncOnStartup="1"
 		/>
 	<ProjectDefaults
@@ -7669,7 +7669,7 @@
 				ResultNormalizeFileNames="1"
 				/>
 			<SearchProject
-				SearchMethod="Keyword Expression"
+				SearchMethod="Regular Expression"
 				RegexType="Source Insight"
 				IgnoreCase="0"
 				FindWholeWords="1"
