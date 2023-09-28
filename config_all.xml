@@ -591,6 +591,7 @@
 			<item Command="Open..." Keycode="(C)O" />
 			<item Command="Close" Keycode="(C)W" />
 			<item Command="Close All" Keycode="(CS)W" />
+                        <item Command="Show File in Explorer..." Keycode="(CS)A" />
 			<item Command="Save" Keycode="(C)S" />
 			<item Command="Reload File" Keycode="(CS)O" />
 			<item Command="Search..." Keycode="(C)F" />
