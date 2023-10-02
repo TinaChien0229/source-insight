@@ -7626,7 +7626,7 @@
 		<SearchDialogs>
 			<Search
 				RegexType="Source Insight"
-				IgnoreCase="0"
+				IgnoreCase="1"
 				UseRegexp="1"
 				WrapAround="1"
 				SelectMatch="1"
@@ -7848,14 +7848,62 @@
 		<SymbolTypes All="1" />
 	</ProjectReport>
 	<SymbolPane
-		Width="168"
+		Width="357"
 		TextColor="#000000"
 		BackColor="#808080"
 		ShowChanges="1"
 		ShowLongFunctions="1"
 		>
-		<Font name="微软雅黑" psize="9" fpfamily="0" charset="1" />
-		<SymbolTypes All="1" />
+		<Font name="" psize="12" fpfamily="0" charset="1" />
+		<SymbolTypes>
+			<Type Name="Function" />
+			<Type Name="Macro" />
+			<Type Name="Structure" />
+			<Type Name="Union" />
+			<Type Name="Type Definition" />
+			<Type Name="Variable" />
+			<Type Name="Constant" />
+			<Type Name="Enumeration" />
+			<Type Name="Custom Tag" />
+			<Type Name="Editor Macro" />
+			<Type Name="Class" />
+			<Type Name="Member Function" />
+			<Type Name="Enum Constant" />
+			<Type Name="Function Prototype" />
+			<Type Name="#-Directive" />
+			<Type Name="Label" />
+			<Type Name="Data Member" />
+			<Type Name="Interface" />
+			<Type Name="Resource" />
+			<Type Name="Class Placeholder" />
+			<Type Name="Function Template" />
+			<Type Name="Class Template" />
+			<Type Name="Class Template Placeholder" />
+			<Type Name="Package" />
+			<Type Name="Namespace" />
+			<Type Name="Token Macro" />
+			<Type Name="Code Block" />
+			<Type Name="Parsing Error" />
+			<Type Name="HTML or XML Element" />
+			<Type Name="HTML Title" />
+			<Type Name="Member Function Prototype" />
+			<Type Name="IDL Module" />
+			<Type Name="IDL Library" />
+			<Type Name="IDL Interface" />
+			<Type Name="CSS Rule Selector" />
+			<Type Name="C# Class Property" />
+			<Type Name="C# Indexer" />
+			<Type Name="C# Event" />
+			<Type Name="VHDL Entity" />
+			<Type Name="VHDL Architecture" />
+			<Type Name="VHDL Component" />
+			<Type Name="VHDL Process" />
+			<Type Name="VHDL Configuration" />
+			<Type Name="External Variable" />
+			<Type Name="Alias" />
+			<Type Name="Macro Event" />
+			<Type Name="Editor Macro Function" />
+		</SymbolTypes>
 		<SymbolSorting
 			SortMode="1"
 			ExpandClasses="1"
