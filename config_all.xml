@@ -7632,7 +7632,7 @@
 				SelectMatch="1"
 				FindNonMatch="0"
 				FindOnePerLine="0"
-				FindBackward="1"
+				FindBackward="0"
 				FindWholeWords="0"
 				TouchFiles="0"
 				ReplacePreserveCase="0"
@@ -7848,7 +7848,7 @@
 		<SymbolTypes All="1" />
 	</ProjectReport>
 	<SymbolPane
-		Width="286"
+		Width="198"
 		TextColor="#000000"
 		BackColor="#808080"
 		ShowChanges="1"
@@ -8225,7 +8225,7 @@
 			TextColor="#000000"
 			BackColor="#808080"
 			>
-			<Font name="Consolas" psize="10" fpfamily="49" charset="0" />
+			<Font name="Consolas" psize="12" fpfamily="49" charset="0" />
 		</ListDisplay>
 		<TrackingOptions tracktype="1" InComments="0" InStrings="0" InAnyFile="0" />
 	</ContextWindow>
@@ -8309,7 +8309,7 @@
 			TextColor="#000000"
 			BackColor="#c0c0c0"
 			>
-			<Font name="微软雅黑" psize="9" fpfamily="0" charset="1" />
+			<Font name="" psize="12" fpfamily="0" charset="1" />
 		</ListDisplay>
 	</ProjectFolderWindow>
 	<ProjectSymbolWindow
